@@ -44,12 +44,10 @@ As such, patch releases should only ever be based on an existing release point.
    release. If there is an issue then branches should be made and merged into
    this branch until the issue is resolved.
 
-3. Tag branch (see `Tag new version`_ below ) after resolving issues and before
-   merging into ``master``.
+3. Merge version bump branch into ``master`` branch.
 
-4. Merge version bump branch into ``master`` branch.
-
-5. `Create new version release to PYPI`_
+4. Tag branch from the command line (see `Tag new version`_ below ). This will
+   trigger a build which is then automatically published on PyPI.
 
 Major and Minor Releases
 ^^^^^^^^^^^^^^^^^^^^^^^^

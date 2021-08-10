@@ -18,6 +18,9 @@ Documentation
 
 * Update the "Libraries" section of the ``README.md`` file for more detail.
 
+* Added ``release.yml`` to github workflow to automate part of the release and
+  publishing process.
+
 
 Fixes
 -----
